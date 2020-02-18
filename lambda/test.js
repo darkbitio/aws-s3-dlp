@@ -4,7 +4,7 @@
  *  Run with `node test.js`
  */
 
-const { handler } = require('./s3-dlp-slack')
+const { handler } = require('./index')
 
 /*
  * Sample event message payload
@@ -15,7 +15,7 @@ const message = {
     userAgent: 'aws-cli/1.16.310 Python/3.7.4 Darwin/19.2.0 botocore/1.13.46',
     userIdentity: { arn: 'arn:aws:iam::123456789012:user/brandon.michaels' },
     requestParameters: {
-      bucketName: 'top-secret-bucket',
+      bucketName: 'secret-9876543210',
     },
     resources: [
       {
