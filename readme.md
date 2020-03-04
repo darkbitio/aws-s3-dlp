@@ -6,4 +6,4 @@ This is a tool to monitor unauthorized or unexpected data transfer from S3 bucke
 
 ### Setup
 
-The step-by-step setup instructions can be found in [this blog post](https://darkbit.io/blog/2020/02/13/simple-dlp-for-amazon-s3).
+The step-by-step setup instructions can be found in [this blog post](https://darkbit.io/blog/2020/02/18/simple-dlp-for-amazon-s3).
